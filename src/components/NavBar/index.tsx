@@ -10,7 +10,6 @@ const NavBarComponent = React.memo(() => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <Link className="nav-link" to="/">Home</Link>
-                    <Link className="nav-link" to="/blogs">Blogs</Link>
                     <Link className="nav-link" to="/resume">Resume</Link>
                 </Nav>
             </Navbar.Collapse>
