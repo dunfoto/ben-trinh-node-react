@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body {
+    // font-family: 'Gotu', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    margin-top: 65px !important;
+}
+
+.c-container-carousel {
+    height: calc(100vh - 56px);
+    object-fit: scale-down;
+
+    .carousel {
+        height: calc(100vh - 56px);
+
+        .carousel-inner {
+            height: calc(100vh - 56px);
+            text-align: center;
+        }
+    }
+
+    .image-carousel {
+        object-fit: inherit;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-control-next {
+        span {
+            display: none;
+        }
+    }
+
+    .carousel-control-prev {
+        span {
+            display: none;
+        }
+    }
+}
+
+.c-main-cv {
+    color: #414142;
+    background: #fcf8e0;
+    padding: 35px;
+
+    p {
+        margin: 0px;
+    }
+}
+
+.c-main-avatar {
+    background: #414142;
+}
+
+.font-start-end-time {
+    font-size: 12px;
+}
+
+.description {
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
+.style-font-full-name {
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 yellow,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.style-font-introduce {
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 blue,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.style-font-work {
+    color: #fcf8e0;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.c-avatar-infomation {
+    color: #fcf8e0;
+    font-size: 12px;
+}
+
+.c-skill {
+    border-top: 1px solid #fcf8e0;
+
+    h3 {
+        font-family: 'Gotu', sans-serif;
+        color: #fcf8e0;
+    }
+
+    .progress {
+        width: 100%;
+        height: 10px;
+        border-radius: 0px;
+        background: #6a6971;
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            border-radius: 0px;
+            background: #fcf8e0;
+        }
+    }
+
+    .title-process-bar {
+        color: #fcf8e0;
+        font-size: 13px;
+    }
+
+    li {
+        color: #fcf8e0;
+    }
+}
+
+.table {
+    color: #fcf8e0;
+    // background: #414142;
+    width: auto;
+
+    tbody {
+        tr {
+            td {
+                border: 0px;
+                margin: 10px 0px;
+                padding: 0px 10px;
+
+                p {
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+
+.grid-full-height {
+    height: 100%;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-10 {
+    font-size: 10px;
+}
+
+.img-avatar-resume {
+    object-fit: scale-down;
+}
+
+.c-button-back {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
